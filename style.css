@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: auto 0;
+}
+header,
+section {
+  width: 1200px;
+  margin: auto;
+}
+.fundo {
+  background-image: url(assets/team.jpg);
+}
+h2 {
+  font-family: Roboto;
+  color: #d2872c;
+  display: inline-block;
+  line-height: 0.5;
+}
+h1 {
+  font-family: Roboto;
+  color: #766f68;
+  font-size: 4em;
+  font-weight: 400;
+  width: 500px;
+}
+p {
+  font-family: Roboto;
+  color: #766f68;
+  font-size: 22px;
+  width: 350px;
+}
+nav {
+  float: right;
+  display: inline-block;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: Roboto;
+  margin-left: 10px;
+}
