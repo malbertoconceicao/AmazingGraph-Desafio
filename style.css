@@ -28,7 +28,7 @@ p {
 }
 nav {
   float: right;
-  display: inline-block;
+  display: inline;
 }
 nav ul {
   list-style: none;
