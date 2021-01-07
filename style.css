@@ -4,11 +4,8 @@ body {
 }
 header,
 section {
-  width: 1200px;
+  width: 1000px;
   margin: auto;
-}
-.fundo {
-  background-image: url(assets/team.jpg);
 }
 h2 {
   font-family: Roboto;
@@ -20,14 +17,14 @@ h1 {
   font-family: Roboto;
   color: #766f68;
   font-size: 4em;
-  font-weight: 400;
+  font-weight: 600;
   width: 500px;
 }
 p {
   font-family: Roboto;
   color: #766f68;
-  font-size: 22px;
-  width: 350px;
+  font-size: 26px;
+  width: 380px;
 }
 nav {
   float: right;
@@ -43,4 +40,22 @@ nav ul li a {
   text-decoration: none;
   font-family: Roboto;
   margin-left: 10px;
+}
+section {
+  height: 700px;
+  background-image: url("assets/team.jpg");
+  background-repeat: no-repeat;
+  background-size: 665px;
+  background-position: right;
+  background-position-y: 10%;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  line-height: 3em;
+  width: 235px;
+  background-color: #d2872c;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #fff;
 }
