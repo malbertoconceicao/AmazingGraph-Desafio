@@ -29,6 +29,7 @@ p {
 nav {
   float: right;
   display: inline;
+  margin-right: 30px;
 }
 nav ul {
   list-style: none;
