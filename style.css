@@ -61,35 +61,29 @@ button {
   color: #fff;
 }
 /* Media query */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   header,
   section {
     width: auto;
-    margin: auto;
   }
-  nav {
+  nav ul {
     display: none;
   }
   h2 {
-    font-family: Roboto;
-    color: #d2872c;
-    display: inline-block;
     line-height: 0.5;
     margin-left: 35px;
+    padding-top: 20px;
   }
   h1 {
-    font-family: Roboto;
-    color: #766f68;
     font-size: 2.5em;
     font-weight: 600;
     width: auto;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 50%;
+    width: 80%;
+    margin: 10% 0% 10% 10%;
   }
   section {
-    height: 700px;
-    background-image: url("assets/team.jpg");
-    background-repeat: no-repeat;
     background-size: 80%;
     background-position: center 0;
   }
@@ -102,5 +96,14 @@ button {
   button {
     width: 70%;
     margin: 15% 0% 0% 15%;
+  }
+  .menu-mobile {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+  }
+  .first {
+    margin-top: 30px;
   }
 }
